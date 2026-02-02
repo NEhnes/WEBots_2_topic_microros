@@ -86,8 +86,15 @@ void setup() {
     &timer,
     &support,
     RCL_MS_TO_NS(timer_timeout),
-    timer_callback,
-    NULL));
+    timer_callback)); // removed NULL 5th param
+
+  // create goose_timer with 400ms interval
+  const unsigned int goose_timer_timeout = 400;
+  RCCHECK(rclc_timer_init_default(
+    &goose_timer,
+    &support,
+    RCL_MS_TO_NS(goose_timer_timeout),
+    goose_timer_callback)); // removed NULL 5th param
 
   // create goose_publisher for mating_calls topic
   RCCHECK(rclc_publisher_init_default(
@@ -95,15 +102,6 @@ void setup() {
     &node,
     ROSIDL_GET_MSG_TYPE_SUPPORT(std_msgs, msg, String),
     "mating_calls"));
-
-  // create goose_timer with 400ms interval
-  const unsigned int goose_timer_timeout = 400;
-  RCCHECK(rclc_timer_init_default2(
-    &goose_timer,
-    &support,
-    RCL_MS_TO_NS(goose_timer_timeout),
-    goose_timer_callback,
-    NULL));
 
   // allocate goose_msg
   goose_msg.data.capacity = 10; // enough for "HONK" and null terminator

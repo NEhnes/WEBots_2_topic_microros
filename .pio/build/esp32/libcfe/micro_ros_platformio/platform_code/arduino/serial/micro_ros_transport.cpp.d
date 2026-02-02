@@ -1,5 +1,5 @@
-.pio/build/esp32/libd9a/micro_ros_platformio/platform_code/arduino/clock_gettime.cpp.o: \
- .pio/libdeps/esp32/micro_ros_platformio/platform_code/arduino/clock_gettime.cpp \
+.pio/build/esp32/libcfe/micro_ros_platformio/platform_code/arduino/serial/micro_ros_transport.cpp.o: \
+ .pio/libdeps/esp32/micro_ros_platformio/platform_code/arduino/serial/micro_ros_transport.cpp \
  /home/nehnes/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
  /home/nehnes/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
  /home/nehnes/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/freertos/FreeRTOS.h \
@@ -133,4 +133,98 @@
  /home/nehnes/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/spi_flash/include/esp_spi_flash_counters.h \
  /home/nehnes/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32/spiram.h \
  /home/nehnes/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
- /home/nehnes/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h
+ /home/nehnes/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
+ .pio/libdeps/esp32/micro_ros_platformio/platform_code/micro_ros_platformio.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/uxr/client/transport.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/uxr/client/config.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/uxr/client/profile/transport/custom/custom_transport.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/uxr/client/core/communication/communication.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/uxr/client/visibility.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw_microros/rmw_microros.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw_microxrcedds_c/config.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/rmw.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/allocator.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/macros.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/configuration_flags.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/types/rcutils_ret.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/visibility_control.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/visibility_control_macros.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/types.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/types/array_list.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/types/char_array.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/types/hash_map.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/types/string_array.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/error_handling.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/snprintf.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/testing/fault_injection.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/qsort.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/types/string_map.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/types/uint8_array.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_runtime_c/message_type_support_struct.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_runtime_c/type_description/type_description__struct.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_runtime_c/type_description/individual_type_description__struct.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_runtime_c/string.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_runtime_c/primitives_sequence.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_runtime_c/type_description/field__struct.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_runtime_c/type_description/field_type__struct.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_runtime_c/type_description/type_source__struct.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_runtime_c/type_hash.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/sha256.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_runtime_c/visibility_control.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_typesupport_interface/macros.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_runtime_c/service_type_support_struct.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_runtime_c/sequence_bound.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/event.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/macros.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/types.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/logging.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rcutils/time.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/events_statuses/events_statuses.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/events_statuses/incompatible_qos.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/qos_policy_kind.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/visibility_control.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/events_statuses/incompatible_type.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/events_statuses/liveliness_changed.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/events_statuses/liveliness_lost.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/events_statuses/matched.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/events_statuses/message_lost.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/events_statuses/offered_deadline_missed.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/events_statuses/requested_deadline_missed.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/init.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/init_options.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/discovery_options.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/ret_types.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/domain_id.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/localhost.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/security_options.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/serialized_message.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/subscription_content_filter_options.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/time.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/event_callback_type.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/message_sequence.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/publisher_options.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/qos_profiles.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/dynamic_message_type_support.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_dynamic_typesupport/api/serialization_support.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_dynamic_typesupport/api/serialization_support_interface.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_dynamic_typesupport/types.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_dynamic_typesupport/visibility_control.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_dynamic_typesupport/uchar.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_dynamic_typesupport/api/dynamic_data.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_dynamic_typesupport/api/dynamic_type.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_dynamic_typesupport/dynamic_message_type_support_struct.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rosidl_dynamic_typesupport/identifier.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/features.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw/subscription_options.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw_microros/continous_serialization.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/ucdr/microcdr.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/ucdr/visibility.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/ucdr/config.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw_microros/init_options.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw_microros/time_sync.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/uxr/client/util/time.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw_microros/ping.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw_microros/timing.h \
+ .pio/libdeps/esp32/micro_ros_platformio/libmicroros/include/rmw_microros/custom_transport.h \
+ .pio/libdeps/esp32/micro_ros_platformio/platform_code/arduino/serial/micro_ros_transport.h
