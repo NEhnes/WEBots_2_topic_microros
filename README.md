@@ -1,4 +1,4 @@
-###_Will fix readme later when it's not midterm szn_
+### _Will fix readme later when it's not midterm szn_
 
 Initial experimentation with microros system
 
