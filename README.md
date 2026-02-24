@@ -1,3 +1,5 @@
+### _Visit [DRIVE FOLDER](https://drive.google.com/drive/u/0/folders/1Xs8jZ2kVp76sEvjYTNtu95YPYwZKQTcp) for build pics & videos_
+
 ### _Will fix readme later when it's not midterm szn_
 
 Initial experimentation with microros system
